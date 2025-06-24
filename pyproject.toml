@@ -1,0 +1,17 @@
+[project]
+name = "llm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "langchain>=0.3.26",
+    "langchain-community>=0.3.26",
+    "langchain-experimental>=0.3.4",
+    "langchain-openai>=0.3.24",
+    "langgraph>=0.4.8",
+    "langserve[all]>=0.3.1",
+    "pypdf>=5.6.1",
+    "python-dotenv>=1.1.0",
+]
