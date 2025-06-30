@@ -113,3 +113,5 @@ messages = chat_prompt.format_messages(
 # 5. 실행
 response = chat_llm.invoke(messages)
 print(response.content)
+
+# %%
